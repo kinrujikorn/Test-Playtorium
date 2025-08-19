@@ -39,6 +39,7 @@ const cart = [
 // ];
 
 function calculateTotal(cart, campaigns) {
+  if (!cart.length) return { total: 0, totalDiscount: 0 };
   let total = cart.reduce((sum, item) => sum + item.price, 0);
   let totalDiscount = 0; // เพิ่มตัวแปรเก็บส่วนลดรวม
 
