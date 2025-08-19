@@ -1,6 +1,6 @@
 # Shopping Cart Project
 
-** Rujikorn Rujitanont
+ Rujikorn Rujitanont
 
 ## Description
 This project implements a shopping cart with multiple discount campaigns.
